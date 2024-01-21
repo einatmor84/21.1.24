@@ -1,0 +1,22 @@
+Task:
+Create a Java program that simulates a simple banking system. Implement a custom exception for insufficient funds during a withdrawal operation.
+
+Requirements:
+1.	Java Program:
+-	Create a Java program that includes the following classes:
+•	BankAccount: Represents a bank account with balance and account number.
+•	InsufficientFundsException: A custom exception class for handling insufficient funds during withdrawals.
+•	BankTransaction: Handles deposit and withdrawal transactions using the BankAccount class.
+2.	Custom Exception:
+-	Implement a custom exception class named InsufficientFundsException that extends Exception. This exception should be thrown when a withdrawal operation results in insufficient funds.
+3.	BankAccount Class:
+-	Implement a BankAccount class with the following:
+•	Fields: accountNumber (String) and balance (double).
+•	Constructor to initialize the account.
+•	deposit method to add funds to the account.
+•	withdraw method that throws InsufficientFundsException if there are insufficient funds.
+4.	BankTransaction Class:
+-	Implement a BankTransaction class with the following:
+•	A main method that simulates bank transactions.
+•	Create an instance of BankAccount.
+•	Perform deposit and withdrawal operations, handling exceptions appropriately.
